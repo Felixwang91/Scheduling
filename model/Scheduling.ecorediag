@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_90t80I7TEeOPGtWTJtW5wA" type="EcoreTools" name="Scheduling" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_GaBlwI7UEeOPGtWTJtW5wA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_GaDa8I7UEeOPGtWTJtW5wA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_GaEpEI7UEeOPGtWTJtW5wA" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_K5HAMI7UEeOPGtWTJtW5wA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//CustomerOrder/orderID"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_K5HAMY7UEeOPGtWTJtW5wA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iwDnMI7UEeOPGtWTJtW5wA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//CustomerOrder/customerName"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iwDnMY7UEeOPGtWTJtW5wA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_oCejEI7UEeOPGtWTJtW5wA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//CustomerOrder/orderDate"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_oCejEY7UEeOPGtWTJtW5wA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_GaEpEY7UEeOPGtWTJtW5wA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_GaEpEo7UEeOPGtWTJtW5wA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_GaEpE47UEeOPGtWTJtW5wA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_GaFQII7UEeOPGtWTJtW5wA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_GaFQIY7UEeOPGtWTJtW5wA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_GaFQIo7UEeOPGtWTJtW5wA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_GaFQI47UEeOPGtWTJtW5wA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_GaBlwY7UEeOPGtWTJtW5wA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="Scheduling.ecore#//CustomerOrder"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GaBlwo7UEeOPGtWTJtW5wA" x="18" y="9" width="165" height="84"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_SWyKUI7iEeOPGtWTJtW5wA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_SWyxYY7iEeOPGtWTJtW5wA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_SWzYcI7iEeOPGtWTJtW5wA" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_YOe9gI7iEeOPGtWTJtW5wA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//SubOrder/requireFlush"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YOe9gY7iEeOPGtWTJtW5wA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_cApAgI7iEeOPGtWTJtW5wA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//SubOrder/quantity"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cApAgY7iEeOPGtWTJtW5wA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_hoCG0I7iEeOPGtWTJtW5wA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//SubOrder/deliverDate"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hoCt4I7iEeOPGtWTJtW5wA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_nZfvII7iEeOPGtWTJtW5wA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//SubOrder/farmLocationLat"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_nZfvIY7iEeOPGtWTJtW5wA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_q5GpkI7iEeOPGtWTJtW5wA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//SubOrder/farmLcationLong"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_q5GpkY7iEeOPGtWTJtW5wA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_tx-7MI7iEeOPGtWTJtW5wA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//SubOrder/bin"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_tx-7MY7iEeOPGtWTJtW5wA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_v6CM0I7iEeOPGtWTJtW5wA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//SubOrder/miles"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_v6CM0Y7iEeOPGtWTJtW5wA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_SWzYcY7iEeOPGtWTJtW5wA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_SWzYco7iEeOPGtWTJtW5wA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_SWzYc47iEeOPGtWTJtW5wA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_SWzYdI7iEeOPGtWTJtW5wA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_SWzYdY7iEeOPGtWTJtW5wA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_SWzYdo7iEeOPGtWTJtW5wA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_SWzYd47iEeOPGtWTJtW5wA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_SWyKUY7iEeOPGtWTJtW5wA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="Scheduling.ecore#//SubOrder"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SWyxYI7iEeOPGtWTJtW5wA" x="243" y="9"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_8EvPII7iEeOPGtWTJtW5wA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_8Ev2MI7iEeOPGtWTJtW5wA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_8Ev2MY7iEeOPGtWTJtW5wA" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_887bYI7iEeOPGtWTJtW5wA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//Recipe/constituentsName"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_887bYY7iEeOPGtWTJtW5wA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="__kZM4I7iEeOPGtWTJtW5wA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//Recipe/constituentsWeights"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__kZM4Y7iEeOPGtWTJtW5wA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_B9Rv0I7jEeOPGtWTJtW5wA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//Recipe/antibioticsRatio"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_B9Rv0Y7jEeOPGtWTJtW5wA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Ew8xUI7jEeOPGtWTJtW5wA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//Recipe/antibioticsName"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ew8xUY7jEeOPGtWTJtW5wA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_HD1Z8I7jEeOPGtWTJtW5wA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//Recipe/antibioticsWeights"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HD1Z8Y7jEeOPGtWTJtW5wA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_8Ev2Mo7iEeOPGtWTJtW5wA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_8Ev2M47iEeOPGtWTJtW5wA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_8Ev2NI7iEeOPGtWTJtW5wA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_8Ev2NY7iEeOPGtWTJtW5wA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_8Ev2No7iEeOPGtWTJtW5wA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_8Ev2N47iEeOPGtWTJtW5wA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_8Ev2OI7iEeOPGtWTJtW5wA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_8EvPIY7iEeOPGtWTJtW5wA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="Scheduling.ecore#//Recipe"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8EvPIo7iEeOPGtWTJtW5wA" x="459" y="9"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_Npk-4I7jEeOPGtWTJtW5wA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_Npll8I7jEeOPGtWTJtW5wA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_Npll8Y7jEeOPGtWTJtW5wA" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_OqELgI7jEeOPGtWTJtW5wA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//Customer/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_OqELgY7jEeOPGtWTJtW5wA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_TH3MgI7jEeOPGtWTJtW5wA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//Customer/accountNumber"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_TH3MgY7jEeOPGtWTJtW5wA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_XhIS0I7jEeOPGtWTJtW5wA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//Customer/contactPhone"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_XhIS0Y7jEeOPGtWTJtW5wA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_Npll8o7jEeOPGtWTJtW5wA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Npll847jEeOPGtWTJtW5wA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Npll9I7jEeOPGtWTJtW5wA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Npll9Y7jEeOPGtWTJtW5wA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_Npll9o7jEeOPGtWTJtW5wA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Npll947jEeOPGtWTJtW5wA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Npll-I7jEeOPGtWTJtW5wA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_Npk-4Y7jEeOPGtWTJtW5wA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="Scheduling.ecore#//Customer"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Npk-4o7jEeOPGtWTJtW5wA" x="18" y="221"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_alTOcI7jEeOPGtWTJtW5wA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_alTOc47jEeOPGtWTJtW5wA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_alT1gI7jEeOPGtWTJtW5wA" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_dPwpkI7jEeOPGtWTJtW5wA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//Address/address1"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_dPwpkY7jEeOPGtWTJtW5wA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_fmGO0I7jEeOPGtWTJtW5wA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//Address/address2"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_fmGO0Y7jEeOPGtWTJtW5wA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_hYZ58I7jEeOPGtWTJtW5wA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//Address/city"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hYZ58Y7jEeOPGtWTJtW5wA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_jfGgsI7jEeOPGtWTJtW5wA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//Address/state"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jfGgsY7jEeOPGtWTJtW5wA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ov9WUI7jEeOPGtWTJtW5wA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//Address/zip"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ov9WUY7jEeOPGtWTJtW5wA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_alT1gY7jEeOPGtWTJtW5wA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_alT1go7jEeOPGtWTJtW5wA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_alT1g47jEeOPGtWTJtW5wA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_alT1hI7jEeOPGtWTJtW5wA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_alT1hY7jEeOPGtWTJtW5wA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_alT1ho7jEeOPGtWTJtW5wA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_alT1h47jEeOPGtWTJtW5wA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_alTOcY7jEeOPGtWTJtW5wA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="Scheduling.ecore#//Address"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_alTOco7jEeOPGtWTJtW5wA" x="216" y="216"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_wc-FUI7jEeOPGtWTJtW5wA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_wc-sYI7jEeOPGtWTJtW5wA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_wc-sYY7jEeOPGtWTJtW5wA" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_x2JewI7jEeOPGtWTJtW5wA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//Consituent/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_x2JewY7jEeOPGtWTJtW5wA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_0wTiwI7jEeOPGtWTJtW5wA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//Consituent/quantityOnHand"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_0wTiwY7jEeOPGtWTJtW5wA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_wc-sYo7jEeOPGtWTJtW5wA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wc-sY47jEeOPGtWTJtW5wA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wc-sZI7jEeOPGtWTJtW5wA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_wc_TcI7jEeOPGtWTJtW5wA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_wc_TcY7jEeOPGtWTJtW5wA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wc_Tco7jEeOPGtWTJtW5wA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wc_Tc47jEeOPGtWTJtW5wA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_wc-FUY7jEeOPGtWTJtW5wA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="Scheduling.ecore#//Consituent"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wc-FUo7jEeOPGtWTJtW5wA" x="477" y="180"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_4QoO4I7jEeOPGtWTJtW5wA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_4QoO447jEeOPGtWTJtW5wA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_4Qo18I7jEeOPGtWTJtW5wA" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_5xXo4I7jEeOPGtWTJtW5wA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//Antibiotics/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5xXo4Y7jEeOPGtWTJtW5wA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_7AQd4I7jEeOPGtWTJtW5wA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//Antibiotics/quantityOnHand"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7AQd4Y7jEeOPGtWTJtW5wA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_4Qo18Y7jEeOPGtWTJtW5wA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_4Qo18o7jEeOPGtWTJtW5wA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_4Qo1847jEeOPGtWTJtW5wA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_4Qo19I7jEeOPGtWTJtW5wA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_4Qo19Y7jEeOPGtWTJtW5wA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_4Qo19o7jEeOPGtWTJtW5wA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_4Qo1947jEeOPGtWTJtW5wA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_4QoO4Y7jEeOPGtWTJtW5wA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="Scheduling.ecore#//Antibiotics"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4QoO4o7jEeOPGtWTJtW5wA" x="477" y="252"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_90t80Y7TEeOPGtWTJtW5wA"/>
+  <element xmi:type="ecore:EPackage" href="Scheduling.ecore#/"/>
+  <edges xmi:type="notation:Edge" xmi:id="_LBshMI7kEeOPGtWTJtW5wA" type="3002" source="_GaBlwI7UEeOPGtWTJtW5wA" target="_SWyKUI7iEeOPGtWTJtW5wA">
+    <children xmi:type="notation:Node" xmi:id="_LBshNI7kEeOPGtWTJtW5wA" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_LBshNY7kEeOPGtWTJtW5wA" x="-21" y="-9"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_LBtIQI7kEeOPGtWTJtW5wA" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_LBtIQY7kEeOPGtWTJtW5wA" x="-13" y="9"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_LBshMY7kEeOPGtWTJtW5wA" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_LBshMo7kEeOPGtWTJtW5wA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="Scheduling.ecore#//CustomerOrder/subOrder"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LBshM47kEeOPGtWTJtW5wA" points="[20, 0, -31, 1]$[52, -61, 1, -60]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LBu9cI7kEeOPGtWTJtW5wA" id="(0.8787878787878788,0.5575221238938053)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LBu9cY7kEeOPGtWTJtW5wA" id="(0.09202453987730061,0.37888198757763975)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_aiNBsI7kEeOPGtWTJtW5wA" type="3002" source="_SWyKUI7iEeOPGtWTJtW5wA" target="_8EvPII7iEeOPGtWTJtW5wA">
+    <children xmi:type="notation:Node" xmi:id="_aiNowI7kEeOPGtWTJtW5wA" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_aiNowY7kEeOPGtWTJtW5wA" x="-19" y="-13"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_aiNowo7kEeOPGtWTJtW5wA" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_aiNow47kEeOPGtWTJtW5wA" x="-19" y="14"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_aiNBsY7kEeOPGtWTJtW5wA" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_aiNBso7kEeOPGtWTJtW5wA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="Scheduling.ecore#//SubOrder/recipe"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_aiNBs47kEeOPGtWTJtW5wA" points="[18, 8, -104, 1]$[123, 63, 1, 56]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aiRTII7kEeOPGtWTJtW5wA" id="(0.8895705521472392,0.30434782608695654)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aiRTIY7kEeOPGtWTJtW5wA" id="(0.08588957055214724,0.49557522123893805)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_oIqQUI7kEeOPGtWTJtW5wA" type="3002" source="_Npk-4I7jEeOPGtWTJtW5wA" target="_alTOcI7jEeOPGtWTJtW5wA">
+    <children xmi:type="notation:Node" xmi:id="_oIq3YI7kEeOPGtWTJtW5wA" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_oIq3YY7kEeOPGtWTJtW5wA" x="-21" y="-15"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_oIq3Yo7kEeOPGtWTJtW5wA" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_oIq3Y47kEeOPGtWTJtW5wA" x="-20" y="12"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_oIqQUY7kEeOPGtWTJtW5wA" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_oIqQUo7kEeOPGtWTJtW5wA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="Scheduling.ecore#//Customer/address"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oIqQU47kEeOPGtWTJtW5wA" points="[12, 0, -61, 1]$[74, -49, 1, -48]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oIwW8I7kEeOPGtWTJtW5wA" id="(0.9210526315789473,0.4639175257731959)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oIwW8Y7kEeOPGtWTJtW5wA" id="(0.11764705882352941,0.4336283185840708)"/>
+  </edges>
+</notation:Diagram>

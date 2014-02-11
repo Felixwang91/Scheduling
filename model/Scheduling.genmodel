@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/Scheduling_version2/src" modelPluginID="Scheduling_version2"
+    modelName="Scheduling" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="6.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>Scheduling.ecore</foreignModel>
+  <genPackages prefix="Scheduling" basePackage="cse487.Scheduler.model" disposableProviderFactory="true"
+      ecorePackage="Scheduling.ecore#/">
+    <genClasses ecoreClass="Scheduling.ecore#//CustomerOrder">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//CustomerOrder/orderID"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//CustomerOrder/customerName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//CustomerOrder/orderDate"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Scheduling.ecore#//CustomerOrder/subOrder"/>
+    </genClasses>
+    <genClasses ecoreClass="Scheduling.ecore#//SubOrder">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//SubOrder/requireFlush"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//SubOrder/quantity"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//SubOrder/deliverDate"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//SubOrder/farmLocationLat"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//SubOrder/farmLcationLong"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//SubOrder/bin"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//SubOrder/miles"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Scheduling.ecore#//SubOrder/recipe"/>
+    </genClasses>
+    <genClasses ecoreClass="Scheduling.ecore#//Recipe">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//Recipe/constituentsName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//Recipe/constituentsWeights"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//Recipe/antibioticsRatio"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//Recipe/antibioticsName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//Recipe/antibioticsWeights"/>
+    </genClasses>
+    <genClasses ecoreClass="Scheduling.ecore#//Customer">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//Customer/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//Customer/accountNumber"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//Customer/contactPhone"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Scheduling.ecore#//Customer/EReference0"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Scheduling.ecore#//Customer/address"/>
+    </genClasses>
+    <genClasses ecoreClass="Scheduling.ecore#//Address">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//Address/address1"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//Address/address2"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//Address/city"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//Address/state"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//Address/zip"/>
+    </genClasses>
+    <genClasses ecoreClass="Scheduling.ecore#//Consituent">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//Consituent/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//Consituent/quantityOnHand"/>
+    </genClasses>
+    <genClasses ecoreClass="Scheduling.ecore#//Antibiotics">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//Antibiotics/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//Antibiotics/quantityOnHand"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
