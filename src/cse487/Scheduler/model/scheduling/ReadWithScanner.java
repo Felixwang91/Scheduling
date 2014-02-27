@@ -1,7 +1,7 @@
 package cse487.Scheduler.model.scheduling;
 
 import java.io.*;
-import java.util.Scanner;
+import java.util.*;
 
 public class ReadWithScanner {
 	File file;
@@ -12,9 +12,9 @@ public class ReadWithScanner {
 	}
 
 	public static void main(String args[]) throws IOException {
-		ReadWithScanner reader = new ReadWithScanner("/path/to/my/file.txt");
+		ReadWithScanner reader = new ReadWithScanner("/pathOfFile/Filename.text");
 		Scanner input = new Scanner(reader.file);
-		String field[][] = null;
+		String field[][] = new String[200][35];
 		int row = 0, colm = 0;
 
 		//Reading the input file and put the data into class variable parsed[][].
