@@ -32,7 +32,7 @@ public class ReadWithScanner {
 		while (input.hasNext()) {
 			String nextToken = input.next();
 			if (nextToken != ",")
-				break;
+				continue;
 			else if (nextToken == "\n") {
 				row++;
 				colm = 0;
@@ -48,6 +48,34 @@ public class ReadWithScanner {
 
 		reader.parsed = field;
 		
+	}
+	
+	public String[] ReadHeader(String filepath) throws IOException {
+		
+		String formatedFile;
+		boolean headerFlag=false;
+		
+		ReadWithScanner reader = new ReadWithScanner(filepath);
+		Scanner input = new Scanner(reader.file);
+		
+		String[] formatedFileContent;//Output string variable
+		int i = 0;
+		
+		while (input.hasNextLine()){
+			String nextLine = input.nextLine();
+			if(headerFlag == false){//start to read the header.
+				if(nextLine == "************")headerFlag = true;
+				else continue;
+			}
+			
+			else if(headerFlag == true){
+				if(nextLine == "************")break;//finish reading the header.
+			}
+		}
+		
+		
+		
+		return formatedFileContent;
 	}
 
 }
