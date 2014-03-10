@@ -73,7 +73,22 @@ public class ReadWithScanner {
 			}
 		}
 		
+		int row=0, colm=0;
+		int fileLines = reader.FileLengthCounter();
+		String field[][] = new String[fileLines][35];
 		
+		while (input.hasNext()) {
+			String nextToken = input.next();
+			if (nextToken != ",")
+				continue;
+			else if (nextToken == "\n") {
+				row++;
+				colm = 0;
+			} else {
+				field[row][colm] = nextToken;
+				colm++;
+			}
+		}
 		
 		return formatedFileContent;
 	}
