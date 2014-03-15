@@ -9,7 +9,10 @@ Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Export-Package: cse487.Scheduler.model.scheduling,
  cse487.Scheduler.model.scheduling.impl,
- cse487.Scheduler.model.scheduling.util
+ cse487.Scheduler.model.scheduling.util,
+ scheduling,
+ scheduling.impl,
+ scheduling.util
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.emf.ecore
 Bundle-ActivationPolicy: lazy

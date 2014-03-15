@@ -7,10 +7,6 @@
         <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//CustomerOrder/orderID"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_K5HAMY7UEeOPGtWTJtW5wA"/>
       </children>
-      <children xmi:type="notation:Node" xmi:id="_iwDnMI7UEeOPGtWTJtW5wA" type="2001">
-        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//CustomerOrder/customerName"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_iwDnMY7UEeOPGtWTJtW5wA"/>
-      </children>
       <children xmi:type="notation:Node" xmi:id="_oCejEI7UEeOPGtWTJtW5wA" type="2001">
         <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//CustomerOrder/orderDate"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_oCejEY7UEeOPGtWTJtW5wA"/>
@@ -26,7 +22,7 @@
     </children>
     <styles xmi:type="notation:ShapeStyle" xmi:id="_GaBlwY7UEeOPGtWTJtW5wA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
     <element xmi:type="ecore:EClass" href="Scheduling.ecore#//CustomerOrder"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GaBlwo7UEeOPGtWTJtW5wA" x="18" y="9" width="165" height="84"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GaBlwo7UEeOPGtWTJtW5wA" x="18" y="45" width="165" height="66"/>
   </children>
   <children xmi:type="notation:Node" xmi:id="_SWyKUI7iEeOPGtWTJtW5wA" type="1001">
     <children xmi:type="notation:Node" xmi:id="_SWyxYY7iEeOPGtWTJtW5wA" type="4001"/>
@@ -43,22 +39,6 @@
         <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//SubOrder/deliverDate"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_hoCt4I7iEeOPGtWTJtW5wA"/>
       </children>
-      <children xmi:type="notation:Node" xmi:id="_nZfvII7iEeOPGtWTJtW5wA" type="2001">
-        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//SubOrder/farmLocationLat"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_nZfvIY7iEeOPGtWTJtW5wA"/>
-      </children>
-      <children xmi:type="notation:Node" xmi:id="_q5GpkI7iEeOPGtWTJtW5wA" type="2001">
-        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//SubOrder/farmLcationLong"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_q5GpkY7iEeOPGtWTJtW5wA"/>
-      </children>
-      <children xmi:type="notation:Node" xmi:id="_tx-7MI7iEeOPGtWTJtW5wA" type="2001">
-        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//SubOrder/bin"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_tx-7MY7iEeOPGtWTJtW5wA"/>
-      </children>
-      <children xmi:type="notation:Node" xmi:id="_v6CM0I7iEeOPGtWTJtW5wA" type="2001">
-        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//SubOrder/miles"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_v6CM0Y7iEeOPGtWTJtW5wA"/>
-      </children>
       <styles xmi:type="notation:DrawerStyle" xmi:id="_SWzYcY7iEeOPGtWTJtW5wA"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_SWzYco7iEeOPGtWTJtW5wA"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_SWzYc47iEeOPGtWTJtW5wA"/>
@@ -70,14 +50,14 @@
     </children>
     <styles xmi:type="notation:ShapeStyle" xmi:id="_SWyKUY7iEeOPGtWTJtW5wA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
     <element xmi:type="ecore:EClass" href="Scheduling.ecore#//SubOrder"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SWyxYI7iEeOPGtWTJtW5wA" x="243" y="9"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SWyxYI7iEeOPGtWTJtW5wA" x="243" y="45"/>
   </children>
   <children xmi:type="notation:Node" xmi:id="_8EvPII7iEeOPGtWTJtW5wA" type="1001">
     <children xmi:type="notation:Node" xmi:id="_8Ev2MI7iEeOPGtWTJtW5wA" type="4001"/>
     <children xmi:type="notation:Node" xmi:id="_8Ev2MY7iEeOPGtWTJtW5wA" type="5001">
-      <children xmi:type="notation:Node" xmi:id="_887bYI7iEeOPGtWTJtW5wA" type="2001">
-        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//Recipe/constituentsName"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_887bYY7iEeOPGtWTJtW5wA"/>
+      <children xmi:type="notation:Node" xmi:id="_O-Oa0Kx1EeOM2uO8hdXncA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//Recipe/recipeName"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_O-Oa0ax1EeOM2uO8hdXncA"/>
       </children>
       <children xmi:type="notation:Node" xmi:id="__kZM4I7iEeOPGtWTJtW5wA" type="2001">
         <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//Recipe/constituentsWeights"/>
@@ -86,10 +66,6 @@
       <children xmi:type="notation:Node" xmi:id="_B9Rv0I7jEeOPGtWTJtW5wA" type="2001">
         <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//Recipe/antibioticsRatio"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_B9Rv0Y7jEeOPGtWTJtW5wA"/>
-      </children>
-      <children xmi:type="notation:Node" xmi:id="_Ew8xUI7jEeOPGtWTJtW5wA" type="2001">
-        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//Recipe/antibioticsName"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ew8xUY7jEeOPGtWTJtW5wA"/>
       </children>
       <children xmi:type="notation:Node" xmi:id="_HD1Z8I7jEeOPGtWTJtW5wA" type="2001">
         <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//Recipe/antibioticsWeights"/>
@@ -106,7 +82,7 @@
     </children>
     <styles xmi:type="notation:ShapeStyle" xmi:id="_8EvPIY7iEeOPGtWTJtW5wA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
     <element xmi:type="ecore:EClass" href="Scheduling.ecore#//Recipe"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8EvPIo7iEeOPGtWTJtW5wA" x="459" y="9"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8EvPIo7iEeOPGtWTJtW5wA" x="459" y="27"/>
   </children>
   <children xmi:type="notation:Node" xmi:id="_Npk-4I7jEeOPGtWTJtW5wA" type="1001">
     <children xmi:type="notation:Node" xmi:id="_Npll8I7jEeOPGtWTJtW5wA" type="4001"/>
@@ -143,10 +119,6 @@
         <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//Address/address1"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_dPwpkY7jEeOPGtWTJtW5wA"/>
       </children>
-      <children xmi:type="notation:Node" xmi:id="_fmGO0I7jEeOPGtWTJtW5wA" type="2001">
-        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//Address/address2"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_fmGO0Y7jEeOPGtWTJtW5wA"/>
-      </children>
       <children xmi:type="notation:Node" xmi:id="_hYZ58I7jEeOPGtWTJtW5wA" type="2001">
         <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//Address/city"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_hYZ58Y7jEeOPGtWTJtW5wA"/>
@@ -170,7 +142,7 @@
     </children>
     <styles xmi:type="notation:ShapeStyle" xmi:id="_alTOcY7jEeOPGtWTJtW5wA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
     <element xmi:type="ecore:EClass" href="Scheduling.ecore#//Address"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_alTOco7jEeOPGtWTJtW5wA" x="216" y="216"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_alTOco7jEeOPGtWTJtW5wA" x="234" y="216"/>
   </children>
   <children xmi:type="notation:Node" xmi:id="_wc-FUI7jEeOPGtWTJtW5wA" type="1001">
     <children xmi:type="notation:Node" xmi:id="_wc-sYI7jEeOPGtWTJtW5wA" type="4001"/>
@@ -194,7 +166,7 @@
     </children>
     <styles xmi:type="notation:ShapeStyle" xmi:id="_wc-FUY7jEeOPGtWTJtW5wA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
     <element xmi:type="ecore:EClass" href="Scheduling.ecore#//Consituent"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wc-FUo7jEeOPGtWTJtW5wA" x="477" y="162"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wc-FUo7jEeOPGtWTJtW5wA" x="504" y="207"/>
   </children>
   <children xmi:type="notation:Node" xmi:id="_4QoO4I7jEeOPGtWTJtW5wA" type="1001">
     <children xmi:type="notation:Node" xmi:id="_4QoO447jEeOPGtWTJtW5wA" type="4001"/>
@@ -218,7 +190,7 @@
     </children>
     <styles xmi:type="notation:ShapeStyle" xmi:id="_4QoO4Y7jEeOPGtWTJtW5wA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
     <element xmi:type="ecore:EClass" href="Scheduling.ecore#//Antibiotics"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4QoO4o7jEeOPGtWTJtW5wA" x="477" y="252"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4QoO4o7jEeOPGtWTJtW5wA" x="360" y="207"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_90t80Y7TEeOPGtWTJtW5wA"/>
   <element xmi:type="ecore:EPackage" href="Scheduling.ecore#/"/>
@@ -263,5 +235,47 @@
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oIqQU47kEeOPGtWTJtW5wA" points="[12, 0, -61, 1]$[74, -49, 1, -48]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oIwW8I7kEeOPGtWTJtW5wA" id="(0.9210526315789473,0.4639175257731959)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oIwW8Y7kEeOPGtWTJtW5wA" id="(0.11764705882352941,0.4336283185840708)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_k7jNwKx1EeOM2uO8hdXncA" type="3002" source="_8EvPII7iEeOPGtWTJtW5wA" target="_wc-FUI7jEeOPGtWTJtW5wA">
+    <children xmi:type="notation:Node" xmi:id="_k7pUYKx1EeOM2uO8hdXncA" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_k7pUYax1EeOM2uO8hdXncA" x="-28" y="-31"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_k7p7cKx1EeOM2uO8hdXncA" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_k7p7cax1EeOM2uO8hdXncA" x="-10" y="-33"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_k7jNwax1EeOM2uO8hdXncA" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_k7jNwqx1EeOM2uO8hdXncA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="Scheduling.ecore#//Recipe/consituent"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_k7jNw6x1EeOM2uO8hdXncA" points="[6, 13, 1, -41]$[6, 39, 1, -15]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k7s-wKx1EeOM2uO8hdXncA" id="(0.49079754601226994,0.8992248062015504)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k7s-wax1EeOM2uO8hdXncA" id="(0.4855072463768116,0.24615384615384617)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_vSU0UKx1EeOM2uO8hdXncA" type="3002" source="_8EvPII7iEeOPGtWTJtW5wA" target="_4QoO4I7jEeOPGtWTJtW5wA">
+    <children xmi:type="notation:Node" xmi:id="_vSU0VKx1EeOM2uO8hdXncA" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_vSU0Vax1EeOM2uO8hdXncA" x="-39" y="42"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_vSVbYKx1EeOM2uO8hdXncA" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_vSVbYax1EeOM2uO8hdXncA" x="-29" y="-14"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_vSU0Uax1EeOM2uO8hdXncA" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_vSU0Uqx1EeOM2uO8hdXncA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="Scheduling.ecore#//Recipe/antibiotics"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vSU0U6x1EeOM2uO8hdXncA" points="[-4, 15, 34, -105]$[-36, 114, 2, -6]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vSXQkKx1EeOM2uO8hdXncA" id="(0.03067484662576687,0.6666666666666666)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vSXQkax1EeOM2uO8hdXncA" id="(0.4782608695652174,0.1076923076923077)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_1a5VEKx1EeOM2uO8hdXncA" type="3002" source="_GaBlwI7UEeOPGtWTJtW5wA" target="_Npk-4I7jEeOPGtWTJtW5wA">
+    <children xmi:type="notation:Node" xmi:id="_1a58IKx1EeOM2uO8hdXncA" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1a58Iax1EeOM2uO8hdXncA" x="-43" y="-25"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_1a58Iqx1EeOM2uO8hdXncA" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1a58I6x1EeOM2uO8hdXncA" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_1a5VEax1EeOM2uO8hdXncA" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_1a5VEqx1EeOM2uO8hdXncA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="Scheduling.ecore#//CustomerOrder/customer"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1a5VE6x1EeOM2uO8hdXncA" points="[0, 16, 2, -137]$[0, 146, 2, -7]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1a8YYKx1EeOM2uO8hdXncA" id="(0.49696969696969695,0.8095238095238095)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1a8YYax1EeOM2uO8hdXncA" id="(0.5328947368421053,0.09876543209876543)"/>
   </edges>
 </notation:Diagram>

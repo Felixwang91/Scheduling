@@ -10,7 +10,7 @@
       <!-- @generated Scheduling -->
       <package
             uri="http://scheduling/1.0"
-            class="cse487.Scheduler.model.scheduling.SchedulingPackage"
+            class="scheduling.SchedulingPackage"
             genModel="model/Scheduling.genmodel"/>
    </extension>
 
