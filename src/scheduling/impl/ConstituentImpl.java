@@ -9,24 +9,24 @@ import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
 
-import scheduling.Consituent;
+import scheduling.Constituent;
 import scheduling.SchedulingPackage;
 
 /**
  * <!-- begin-user-doc -->
- * An implementation of the model object '<em><b>Consituent</b></em>'.
+ * An implementation of the model object '<em><b>Constituent</b></em>'.
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
  * <ul>
- *   <li>{@link scheduling.impl.ConsituentImpl#getName <em>Name</em>}</li>
- *   <li>{@link scheduling.impl.ConsituentImpl#getQuantityOnHand <em>Quantity On Hand</em>}</li>
+ *   <li>{@link scheduling.impl.ConstituentImpl#getName <em>Name</em>}</li>
+ *   <li>{@link scheduling.impl.ConstituentImpl#getQuantityOnHand <em>Quantity On Hand</em>}</li>
  * </ul>
  * </p>
  *
  * @generated
  */
-public class ConsituentImpl extends MinimalEObjectImpl.Container implements Consituent {
+public class ConstituentImpl extends MinimalEObjectImpl.Container implements Constituent {
 	/**
 	 * The default value of the '{@link #getName() <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -72,7 +72,7 @@ public class ConsituentImpl extends MinimalEObjectImpl.Container implements Cons
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected ConsituentImpl() {
+	protected ConstituentImpl() {
 		super();
 	}
 
@@ -83,7 +83,7 @@ public class ConsituentImpl extends MinimalEObjectImpl.Container implements Cons
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return SchedulingPackage.Literals.CONSITUENT;
+		return SchedulingPackage.Literals.CONSTITUENT;
 	}
 
 	/**
@@ -104,7 +104,7 @@ public class ConsituentImpl extends MinimalEObjectImpl.Container implements Cons
 		String oldName = name;
 		name = newName;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, SchedulingPackage.CONSITUENT__NAME, oldName, name));
+			eNotify(new ENotificationImpl(this, Notification.SET, SchedulingPackage.CONSTITUENT__NAME, oldName, name));
 	}
 
 	/**
@@ -125,7 +125,7 @@ public class ConsituentImpl extends MinimalEObjectImpl.Container implements Cons
 		int oldQuantityOnHand = quantityOnHand;
 		quantityOnHand = newQuantityOnHand;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, SchedulingPackage.CONSITUENT__QUANTITY_ON_HAND, oldQuantityOnHand, quantityOnHand));
+			eNotify(new ENotificationImpl(this, Notification.SET, SchedulingPackage.CONSTITUENT__QUANTITY_ON_HAND, oldQuantityOnHand, quantityOnHand));
 	}
 
 	/**
@@ -136,9 +136,9 @@ public class ConsituentImpl extends MinimalEObjectImpl.Container implements Cons
 	@Override
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
-			case SchedulingPackage.CONSITUENT__NAME:
+			case SchedulingPackage.CONSTITUENT__NAME:
 				return getName();
-			case SchedulingPackage.CONSITUENT__QUANTITY_ON_HAND:
+			case SchedulingPackage.CONSTITUENT__QUANTITY_ON_HAND:
 				return getQuantityOnHand();
 		}
 		return super.eGet(featureID, resolve, coreType);
@@ -152,10 +152,10 @@ public class ConsituentImpl extends MinimalEObjectImpl.Container implements Cons
 	@Override
 	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
-			case SchedulingPackage.CONSITUENT__NAME:
+			case SchedulingPackage.CONSTITUENT__NAME:
 				setName((String)newValue);
 				return;
-			case SchedulingPackage.CONSITUENT__QUANTITY_ON_HAND:
+			case SchedulingPackage.CONSTITUENT__QUANTITY_ON_HAND:
 				setQuantityOnHand((Integer)newValue);
 				return;
 		}
@@ -170,10 +170,10 @@ public class ConsituentImpl extends MinimalEObjectImpl.Container implements Cons
 	@Override
 	public void eUnset(int featureID) {
 		switch (featureID) {
-			case SchedulingPackage.CONSITUENT__NAME:
+			case SchedulingPackage.CONSTITUENT__NAME:
 				setName(NAME_EDEFAULT);
 				return;
-			case SchedulingPackage.CONSITUENT__QUANTITY_ON_HAND:
+			case SchedulingPackage.CONSTITUENT__QUANTITY_ON_HAND:
 				setQuantityOnHand(QUANTITY_ON_HAND_EDEFAULT);
 				return;
 		}
@@ -188,9 +188,9 @@ public class ConsituentImpl extends MinimalEObjectImpl.Container implements Cons
 	@Override
 	public boolean eIsSet(int featureID) {
 		switch (featureID) {
-			case SchedulingPackage.CONSITUENT__NAME:
+			case SchedulingPackage.CONSTITUENT__NAME:
 				return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
-			case SchedulingPackage.CONSITUENT__QUANTITY_ON_HAND:
+			case SchedulingPackage.CONSTITUENT__QUANTITY_ON_HAND:
 				return quantityOnHand != QUANTITY_ON_HAND_EDEFAULT;
 		}
 		return super.eIsSet(featureID);
@@ -214,4 +214,4 @@ public class ConsituentImpl extends MinimalEObjectImpl.Container implements Cons
 		return result.toString();
 	}
 
-} //ConsituentImpl
+} //ConstituentImpl

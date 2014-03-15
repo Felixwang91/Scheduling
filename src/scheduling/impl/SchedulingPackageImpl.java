@@ -6,12 +6,10 @@ import org.eclipse.emf.ecore.EAttribute;
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EPackage;
 import org.eclipse.emf.ecore.EReference;
-
 import org.eclipse.emf.ecore.impl.EPackageImpl;
-
 import scheduling.Address;
 import scheduling.Antibiotics;
-import scheduling.Consituent;
+import scheduling.Constituent;
 import scheduling.Customer;
 import scheduling.CustomerOrder;
 import scheduling.Recipe;
@@ -66,7 +64,7 @@ public class SchedulingPackageImpl extends EPackageImpl implements SchedulingPac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	private EClass consituentEClass = null;
+	private EClass constituentEClass = null;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -276,7 +274,7 @@ public class SchedulingPackageImpl extends EPackageImpl implements SchedulingPac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getRecipe_Consituent() {
+	public EReference getRecipe_Constituent() {
 		return (EReference)recipeEClass.getEStructuralFeatures().get(4);
 	}
 
@@ -384,8 +382,8 @@ public class SchedulingPackageImpl extends EPackageImpl implements SchedulingPac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getConsituent() {
-		return consituentEClass;
+	public EClass getConstituent() {
+		return constituentEClass;
 	}
 
 	/**
@@ -393,8 +391,8 @@ public class SchedulingPackageImpl extends EPackageImpl implements SchedulingPac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getConsituent_Name() {
-		return (EAttribute)consituentEClass.getEStructuralFeatures().get(0);
+	public EAttribute getConstituent_Name() {
+		return (EAttribute)constituentEClass.getEStructuralFeatures().get(0);
 	}
 
 	/**
@@ -402,8 +400,8 @@ public class SchedulingPackageImpl extends EPackageImpl implements SchedulingPac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getConsituent_QuantityOnHand() {
-		return (EAttribute)consituentEClass.getEStructuralFeatures().get(1);
+	public EAttribute getConstituent_QuantityOnHand() {
+		return (EAttribute)constituentEClass.getEStructuralFeatures().get(1);
 	}
 
 	/**
@@ -478,7 +476,7 @@ public class SchedulingPackageImpl extends EPackageImpl implements SchedulingPac
 		createEAttribute(recipeEClass, RECIPE__CONSTITUENTS_WEIGHTS);
 		createEAttribute(recipeEClass, RECIPE__ANTIBIOTICS_RATIO);
 		createEAttribute(recipeEClass, RECIPE__ANTIBIOTICS_WEIGHTS);
-		createEReference(recipeEClass, RECIPE__CONSITUENT);
+		createEReference(recipeEClass, RECIPE__CONSTITUENT);
 		createEReference(recipeEClass, RECIPE__ANTIBIOTICS);
 
 		customerEClass = createEClass(CUSTOMER);
@@ -493,9 +491,9 @@ public class SchedulingPackageImpl extends EPackageImpl implements SchedulingPac
 		createEAttribute(addressEClass, ADDRESS__STATE);
 		createEAttribute(addressEClass, ADDRESS__ZIP);
 
-		consituentEClass = createEClass(CONSITUENT);
-		createEAttribute(consituentEClass, CONSITUENT__NAME);
-		createEAttribute(consituentEClass, CONSITUENT__QUANTITY_ON_HAND);
+		constituentEClass = createEClass(CONSTITUENT);
+		createEAttribute(constituentEClass, CONSTITUENT__NAME);
+		createEAttribute(constituentEClass, CONSTITUENT__QUANTITY_ON_HAND);
 
 		antibioticsEClass = createEClass(ANTIBIOTICS);
 		createEAttribute(antibioticsEClass, ANTIBIOTICS__NAME);
@@ -549,7 +547,7 @@ public class SchedulingPackageImpl extends EPackageImpl implements SchedulingPac
 		initEAttribute(getRecipe_ConstituentsWeights(), ecorePackage.getEInt(), "constituentsWeights", null, 0, 1, Recipe.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getRecipe_AntibioticsRatio(), ecorePackage.getEDouble(), "antibioticsRatio", null, 0, 1, Recipe.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getRecipe_AntibioticsWeights(), ecorePackage.getEInt(), "antibioticsWeights", null, 0, 1, Recipe.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEReference(getRecipe_Consituent(), this.getConsituent(), null, "consituent", null, 1, -1, Recipe.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getRecipe_Constituent(), this.getConstituent(), null, "constituent", null, 1, -1, Recipe.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getRecipe_Antibiotics(), this.getAntibiotics(), null, "antibiotics", null, 0, -1, Recipe.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(customerEClass, Customer.class, "Customer", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
@@ -564,9 +562,9 @@ public class SchedulingPackageImpl extends EPackageImpl implements SchedulingPac
 		initEAttribute(getAddress_State(), ecorePackage.getEString(), "state", null, 0, 1, Address.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getAddress_Zip(), ecorePackage.getEString(), "zip", null, 0, 1, Address.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
-		initEClass(consituentEClass, Consituent.class, "Consituent", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-		initEAttribute(getConsituent_Name(), ecorePackage.getEString(), "name", null, 0, 1, Consituent.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEAttribute(getConsituent_QuantityOnHand(), ecorePackage.getEInt(), "quantityOnHand", null, 0, 1, Consituent.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEClass(constituentEClass, Constituent.class, "Constituent", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEAttribute(getConstituent_Name(), ecorePackage.getEString(), "name", null, 0, 1, Constituent.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getConstituent_QuantityOnHand(), ecorePackage.getEInt(), "quantityOnHand", null, 0, 1, Constituent.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(antibioticsEClass, Antibiotics.class, "Antibiotics", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getAntibiotics_Name(), ecorePackage.getEString(), "name", null, 0, 1, Antibiotics.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);

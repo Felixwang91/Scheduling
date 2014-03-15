@@ -88,8 +88,8 @@ public class SchedulingAdapterFactory extends AdapterFactoryImpl {
 				return createAddressAdapter();
 			}
 			@Override
-			public Adapter caseConsituent(Consituent object) {
-				return createConsituentAdapter();
+			public Adapter caseConstituent(Constituent object) {
+				return createConstituentAdapter();
 			}
 			@Override
 			public Adapter caseAntibiotics(Antibiotics object) {
@@ -186,16 +186,16 @@ public class SchedulingAdapterFactory extends AdapterFactoryImpl {
 	}
 
 	/**
-	 * Creates a new adapter for an object of class '{@link scheduling.Consituent <em>Consituent</em>}'.
+	 * Creates a new adapter for an object of class '{@link scheduling.Constituent <em>Constituent</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see scheduling.Consituent
+	 * @see scheduling.Constituent
 	 * @generated
 	 */
-	public Adapter createConsituentAdapter() {
+	public Adapter createConstituentAdapter() {
 		return null;
 	}
 

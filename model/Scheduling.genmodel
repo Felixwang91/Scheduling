@@ -23,7 +23,7 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//Recipe/constituentsWeights"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//Recipe/antibioticsRatio"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//Recipe/antibioticsWeights"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Scheduling.ecore#//Recipe/consituent"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Scheduling.ecore#//Recipe/constituent"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Scheduling.ecore#//Recipe/antibiotics"/>
     </genClasses>
     <genClasses ecoreClass="Scheduling.ecore#//Customer">
@@ -38,9 +38,9 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//Address/state"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//Address/zip"/>
     </genClasses>
-    <genClasses ecoreClass="Scheduling.ecore#//Consituent">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//Consituent/name"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//Consituent/quantityOnHand"/>
+    <genClasses ecoreClass="Scheduling.ecore#//Constituent">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//Constituent/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//Constituent/quantityOnHand"/>
     </genClasses>
     <genClasses ecoreClass="Scheduling.ecore#//Antibiotics">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Scheduling.ecore#//Antibiotics/name"/>

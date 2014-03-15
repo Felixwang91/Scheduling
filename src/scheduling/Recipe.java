@@ -18,7 +18,7 @@ import org.eclipse.emf.ecore.EObject;
  *   <li>{@link scheduling.Recipe#getConstituentsWeights <em>Constituents Weights</em>}</li>
  *   <li>{@link scheduling.Recipe#getAntibioticsRatio <em>Antibiotics Ratio</em>}</li>
  *   <li>{@link scheduling.Recipe#getAntibioticsWeights <em>Antibiotics Weights</em>}</li>
- *   <li>{@link scheduling.Recipe#getConsituent <em>Consituent</em>}</li>
+ *   <li>{@link scheduling.Recipe#getConstituent <em>Constituent</em>}</li>
  *   <li>{@link scheduling.Recipe#getAntibiotics <em>Antibiotics</em>}</li>
  * </ul>
  * </p>
@@ -133,20 +133,20 @@ public interface Recipe extends EObject {
 	void setAntibioticsWeights(int value);
 
 	/**
-	 * Returns the value of the '<em><b>Consituent</b></em>' containment reference list.
-	 * The list contents are of type {@link scheduling.Consituent}.
+	 * Returns the value of the '<em><b>Constituent</b></em>' containment reference list.
+	 * The list contents are of type {@link scheduling.Constituent}.
 	 * <!-- begin-user-doc -->
 	 * <p>
-	 * If the meaning of the '<em>Consituent</em>' containment reference list isn't clear,
+	 * If the meaning of the '<em>Constituent</em>' containment reference list isn't clear,
 	 * there really should be more of a description here...
 	 * </p>
 	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Consituent</em>' containment reference list.
-	 * @see scheduling.SchedulingPackage#getRecipe_Consituent()
+	 * @return the value of the '<em>Constituent</em>' containment reference list.
+	 * @see scheduling.SchedulingPackage#getRecipe_Constituent()
 	 * @model containment="true" required="true"
 	 * @generated
 	 */
-	EList<Consituent> getConsituent();
+	EList<Constituent> getConstituent();
 
 	/**
 	 * Returns the value of the '<em><b>Antibiotics</b></em>' containment reference list.

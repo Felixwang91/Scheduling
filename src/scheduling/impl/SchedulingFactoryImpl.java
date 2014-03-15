@@ -61,7 +61,7 @@ public class SchedulingFactoryImpl extends EFactoryImpl implements SchedulingFac
 			case SchedulingPackage.RECIPE: return createRecipe();
 			case SchedulingPackage.CUSTOMER: return createCustomer();
 			case SchedulingPackage.ADDRESS: return createAddress();
-			case SchedulingPackage.CONSITUENT: return createConsituent();
+			case SchedulingPackage.CONSTITUENT: return createConstituent();
 			case SchedulingPackage.ANTIBIOTICS: return createAntibiotics();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
@@ -123,9 +123,9 @@ public class SchedulingFactoryImpl extends EFactoryImpl implements SchedulingFac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Consituent createConsituent() {
-		ConsituentImpl consituent = new ConsituentImpl();
-		return consituent;
+	public Constituent createConstituent() {
+		ConstituentImpl constituent = new ConstituentImpl();
+		return constituent;
 	}
 
 	/**

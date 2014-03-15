@@ -231,13 +231,13 @@ public interface SchedulingPackage extends EPackage {
 	int RECIPE__ANTIBIOTICS_WEIGHTS = 3;
 
 	/**
-	 * The feature id for the '<em><b>Consituent</b></em>' containment reference list.
+	 * The feature id for the '<em><b>Constituent</b></em>' containment reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int RECIPE__CONSITUENT = 4;
+	int RECIPE__CONSTITUENT = 4;
 
 	/**
 	 * The feature id for the '<em><b>Antibiotics</b></em>' containment reference list.
@@ -395,14 +395,14 @@ public interface SchedulingPackage extends EPackage {
 	int ADDRESS_OPERATION_COUNT = 0;
 
 	/**
-	 * The meta object id for the '{@link scheduling.impl.ConsituentImpl <em>Consituent</em>}' class.
+	 * The meta object id for the '{@link scheduling.impl.ConstituentImpl <em>Constituent</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see scheduling.impl.ConsituentImpl
-	 * @see scheduling.impl.SchedulingPackageImpl#getConsituent()
+	 * @see scheduling.impl.ConstituentImpl
+	 * @see scheduling.impl.SchedulingPackageImpl#getConstituent()
 	 * @generated
 	 */
-	int CONSITUENT = 5;
+	int CONSTITUENT = 5;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -411,7 +411,7 @@ public interface SchedulingPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int CONSITUENT__NAME = 0;
+	int CONSTITUENT__NAME = 0;
 
 	/**
 	 * The feature id for the '<em><b>Quantity On Hand</b></em>' attribute.
@@ -420,25 +420,25 @@ public interface SchedulingPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int CONSITUENT__QUANTITY_ON_HAND = 1;
+	int CONSTITUENT__QUANTITY_ON_HAND = 1;
 
 	/**
-	 * The number of structural features of the '<em>Consituent</em>' class.
+	 * The number of structural features of the '<em>Constituent</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int CONSITUENT_FEATURE_COUNT = 2;
+	int CONSTITUENT_FEATURE_COUNT = 2;
 
 	/**
-	 * The number of operations of the '<em>Consituent</em>' class.
+	 * The number of operations of the '<em>Constituent</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int CONSITUENT_OPERATION_COUNT = 0;
+	int CONSTITUENT_OPERATION_COUNT = 0;
 
 	/**
 	 * The meta object id for the '{@link scheduling.impl.AntibioticsImpl <em>Antibiotics</em>}' class.
@@ -650,15 +650,15 @@ public interface SchedulingPackage extends EPackage {
 	EAttribute getRecipe_AntibioticsWeights();
 
 	/**
-	 * Returns the meta object for the containment reference list '{@link scheduling.Recipe#getConsituent <em>Consituent</em>}'.
+	 * Returns the meta object for the containment reference list '{@link scheduling.Recipe#getConstituent <em>Constituent</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference list '<em>Consituent</em>'.
-	 * @see scheduling.Recipe#getConsituent()
+	 * @return the meta object for the containment reference list '<em>Constituent</em>'.
+	 * @see scheduling.Recipe#getConstituent()
 	 * @see #getRecipe()
 	 * @generated
 	 */
-	EReference getRecipe_Consituent();
+	EReference getRecipe_Constituent();
 
 	/**
 	 * Returns the meta object for the containment reference list '{@link scheduling.Recipe#getAntibiotics <em>Antibiotics</em>}'.
@@ -780,36 +780,36 @@ public interface SchedulingPackage extends EPackage {
 	EAttribute getAddress_Zip();
 
 	/**
-	 * Returns the meta object for class '{@link scheduling.Consituent <em>Consituent</em>}'.
+	 * Returns the meta object for class '{@link scheduling.Constituent <em>Constituent</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Consituent</em>'.
-	 * @see scheduling.Consituent
+	 * @return the meta object for class '<em>Constituent</em>'.
+	 * @see scheduling.Constituent
 	 * @generated
 	 */
-	EClass getConsituent();
+	EClass getConstituent();
 
 	/**
-	 * Returns the meta object for the attribute '{@link scheduling.Consituent#getName <em>Name</em>}'.
+	 * Returns the meta object for the attribute '{@link scheduling.Constituent#getName <em>Name</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for the attribute '<em>Name</em>'.
-	 * @see scheduling.Consituent#getName()
-	 * @see #getConsituent()
+	 * @see scheduling.Constituent#getName()
+	 * @see #getConstituent()
 	 * @generated
 	 */
-	EAttribute getConsituent_Name();
+	EAttribute getConstituent_Name();
 
 	/**
-	 * Returns the meta object for the attribute '{@link scheduling.Consituent#getQuantityOnHand <em>Quantity On Hand</em>}'.
+	 * Returns the meta object for the attribute '{@link scheduling.Constituent#getQuantityOnHand <em>Quantity On Hand</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for the attribute '<em>Quantity On Hand</em>'.
-	 * @see scheduling.Consituent#getQuantityOnHand()
-	 * @see #getConsituent()
+	 * @see scheduling.Constituent#getQuantityOnHand()
+	 * @see #getConstituent()
 	 * @generated
 	 */
-	EAttribute getConsituent_QuantityOnHand();
+	EAttribute getConstituent_QuantityOnHand();
 
 	/**
 	 * Returns the meta object for class '{@link scheduling.Antibiotics <em>Antibiotics</em>}'.
@@ -993,12 +993,12 @@ public interface SchedulingPackage extends EPackage {
 		EAttribute RECIPE__ANTIBIOTICS_WEIGHTS = eINSTANCE.getRecipe_AntibioticsWeights();
 
 		/**
-		 * The meta object literal for the '<em><b>Consituent</b></em>' containment reference list feature.
+		 * The meta object literal for the '<em><b>Constituent</b></em>' containment reference list feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference RECIPE__CONSITUENT = eINSTANCE.getRecipe_Consituent();
+		EReference RECIPE__CONSTITUENT = eINSTANCE.getRecipe_Constituent();
 
 		/**
 		 * The meta object literal for the '<em><b>Antibiotics</b></em>' containment reference list feature.
@@ -1093,14 +1093,14 @@ public interface SchedulingPackage extends EPackage {
 		EAttribute ADDRESS__ZIP = eINSTANCE.getAddress_Zip();
 
 		/**
-		 * The meta object literal for the '{@link scheduling.impl.ConsituentImpl <em>Consituent</em>}' class.
+		 * The meta object literal for the '{@link scheduling.impl.ConstituentImpl <em>Constituent</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see scheduling.impl.ConsituentImpl
-		 * @see scheduling.impl.SchedulingPackageImpl#getConsituent()
+		 * @see scheduling.impl.ConstituentImpl
+		 * @see scheduling.impl.SchedulingPackageImpl#getConstituent()
 		 * @generated
 		 */
-		EClass CONSITUENT = eINSTANCE.getConsituent();
+		EClass CONSTITUENT = eINSTANCE.getConstituent();
 
 		/**
 		 * The meta object literal for the '<em><b>Name</b></em>' attribute feature.
@@ -1108,7 +1108,7 @@ public interface SchedulingPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute CONSITUENT__NAME = eINSTANCE.getConsituent_Name();
+		EAttribute CONSTITUENT__NAME = eINSTANCE.getConstituent_Name();
 
 		/**
 		 * The meta object literal for the '<em><b>Quantity On Hand</b></em>' attribute feature.
@@ -1116,7 +1116,7 @@ public interface SchedulingPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute CONSITUENT__QUANTITY_ON_HAND = eINSTANCE.getConsituent_QuantityOnHand();
+		EAttribute CONSTITUENT__QUANTITY_ON_HAND = eINSTANCE.getConstituent_QuantityOnHand();
 
 		/**
 		 * The meta object literal for the '{@link scheduling.impl.AntibioticsImpl <em>Antibiotics</em>}' class.

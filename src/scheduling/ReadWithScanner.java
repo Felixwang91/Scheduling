@@ -28,10 +28,7 @@ public class ReadWithScanner {
 		ReadWithScanner reader = new ReadWithScanner("data.txt");
 		Scanner input = new Scanner(reader.file);
 		int fileLines = reader.FileLengthCounter();
-		String field[][] = new String[fileLines][35];
-		int row = 0, colm = 0;
-
-		
+		String field[][] = new String[fileLines][35];		
 
 		// Reading the input file and put the data into class variable
 		// parsed[][].
@@ -50,5 +47,7 @@ public class ReadWithScanner {
 		reader.parsed = field;
 
 	}
-
+	
+	
+	
 }

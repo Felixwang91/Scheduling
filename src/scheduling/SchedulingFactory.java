@@ -67,13 +67,13 @@ public interface SchedulingFactory extends EFactory {
 	Address createAddress();
 
 	/**
-	 * Returns a new object of class '<em>Consituent</em>'.
+	 * Returns a new object of class '<em>Constituent</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Consituent</em>'.
+	 * @return a new object of class '<em>Constituent</em>'.
 	 * @generated
 	 */
-	Consituent createConsituent();
+	Constituent createConstituent();
 
 	/**
 	 * Returns a new object of class '<em>Antibiotics</em>'.

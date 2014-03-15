@@ -148,11 +148,11 @@
     <children xmi:type="notation:Node" xmi:id="_wc-sYI7jEeOPGtWTJtW5wA" type="4001"/>
     <children xmi:type="notation:Node" xmi:id="_wc-sYY7jEeOPGtWTJtW5wA" type="5001">
       <children xmi:type="notation:Node" xmi:id="_x2JewI7jEeOPGtWTJtW5wA" type="2001">
-        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//Consituent/name"/>
+        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//Constituent/name"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_x2JewY7jEeOPGtWTJtW5wA"/>
       </children>
       <children xmi:type="notation:Node" xmi:id="_0wTiwI7jEeOPGtWTJtW5wA" type="2001">
-        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//Consituent/quantityOnHand"/>
+        <element xmi:type="ecore:EAttribute" href="Scheduling.ecore#//Constituent/quantityOnHand"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_0wTiwY7jEeOPGtWTJtW5wA"/>
       </children>
       <styles xmi:type="notation:DrawerStyle" xmi:id="_wc-sYo7jEeOPGtWTJtW5wA"/>
@@ -165,7 +165,7 @@
       <styles xmi:type="notation:FilteringStyle" xmi:id="_wc_Tc47jEeOPGtWTJtW5wA"/>
     </children>
     <styles xmi:type="notation:ShapeStyle" xmi:id="_wc-FUY7jEeOPGtWTJtW5wA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
-    <element xmi:type="ecore:EClass" href="Scheduling.ecore#//Consituent"/>
+    <element xmi:type="ecore:EClass" href="Scheduling.ecore#//Constituent"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wc-FUo7jEeOPGtWTJtW5wA" x="504" y="207"/>
   </children>
   <children xmi:type="notation:Node" xmi:id="_4QoO4I7jEeOPGtWTJtW5wA" type="1001">
@@ -245,7 +245,7 @@
     </children>
     <styles xmi:type="notation:ConnectorStyle" xmi:id="_k7jNwax1EeOM2uO8hdXncA" lineColor="4210752"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_k7jNwqx1EeOM2uO8hdXncA" fontColor="4210752" fontName="Lucida Grande" fontHeight="10"/>
-    <element xmi:type="ecore:EReference" href="Scheduling.ecore#//Recipe/consituent"/>
+    <element xmi:type="ecore:EReference" href="Scheduling.ecore#//Recipe/constituent"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_k7jNw6x1EeOM2uO8hdXncA" points="[6, 13, 1, -41]$[6, 39, 1, -15]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k7s-wKx1EeOM2uO8hdXncA" id="(0.49079754601226994,0.8992248062015504)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k7s-wax1EeOM2uO8hdXncA" id="(0.4855072463768116,0.24615384615384617)"/>

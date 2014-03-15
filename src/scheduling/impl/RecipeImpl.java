@@ -3,23 +3,17 @@
 package scheduling.impl;
 
 import java.util.Collection;
-
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
-
 import org.eclipse.emf.common.util.EList;
-
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
-
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
-
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.InternalEList;
-
 import scheduling.Antibiotics;
-import scheduling.Consituent;
+import scheduling.Constituent;
 import scheduling.Recipe;
 import scheduling.SchedulingPackage;
 
@@ -34,7 +28,7 @@ import scheduling.SchedulingPackage;
  *   <li>{@link scheduling.impl.RecipeImpl#getConstituentsWeights <em>Constituents Weights</em>}</li>
  *   <li>{@link scheduling.impl.RecipeImpl#getAntibioticsRatio <em>Antibiotics Ratio</em>}</li>
  *   <li>{@link scheduling.impl.RecipeImpl#getAntibioticsWeights <em>Antibiotics Weights</em>}</li>
- *   <li>{@link scheduling.impl.RecipeImpl#getConsituent <em>Consituent</em>}</li>
+ *   <li>{@link scheduling.impl.RecipeImpl#getConstituent <em>Constituent</em>}</li>
  *   <li>{@link scheduling.impl.RecipeImpl#getAntibiotics <em>Antibiotics</em>}</li>
  * </ul>
  * </p>
@@ -123,14 +117,14 @@ public class RecipeImpl extends MinimalEObjectImpl.Container implements Recipe {
 	protected int antibioticsWeights = ANTIBIOTICS_WEIGHTS_EDEFAULT;
 
 	/**
-	 * The cached value of the '{@link #getConsituent() <em>Consituent</em>}' containment reference list.
+	 * The cached value of the '{@link #getConstituent() <em>Constituent</em>}' containment reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see #getConsituent()
+	 * @see #getConstituent()
 	 * @generated
 	 * @ordered
 	 */
-	protected EList<Consituent> consituent;
+	protected EList<Constituent> constituent;
 
 	/**
 	 * The cached value of the '{@link #getAntibiotics() <em>Antibiotics</em>}' containment reference list.
@@ -250,11 +244,11 @@ public class RecipeImpl extends MinimalEObjectImpl.Container implements Recipe {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EList<Consituent> getConsituent() {
-		if (consituent == null) {
-			consituent = new EObjectContainmentEList<Consituent>(Consituent.class, this, SchedulingPackage.RECIPE__CONSITUENT);
+	public EList<Constituent> getConstituent() {
+		if (constituent == null) {
+			constituent = new EObjectContainmentEList<Constituent>(Constituent.class, this, SchedulingPackage.RECIPE__CONSTITUENT);
 		}
-		return consituent;
+		return constituent;
 	}
 
 	/**
@@ -277,8 +271,8 @@ public class RecipeImpl extends MinimalEObjectImpl.Container implements Recipe {
 	@Override
 	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
-			case SchedulingPackage.RECIPE__CONSITUENT:
-				return ((InternalEList<?>)getConsituent()).basicRemove(otherEnd, msgs);
+			case SchedulingPackage.RECIPE__CONSTITUENT:
+				return ((InternalEList<?>)getConstituent()).basicRemove(otherEnd, msgs);
 			case SchedulingPackage.RECIPE__ANTIBIOTICS:
 				return ((InternalEList<?>)getAntibiotics()).basicRemove(otherEnd, msgs);
 		}
@@ -301,8 +295,8 @@ public class RecipeImpl extends MinimalEObjectImpl.Container implements Recipe {
 				return getAntibioticsRatio();
 			case SchedulingPackage.RECIPE__ANTIBIOTICS_WEIGHTS:
 				return getAntibioticsWeights();
-			case SchedulingPackage.RECIPE__CONSITUENT:
-				return getConsituent();
+			case SchedulingPackage.RECIPE__CONSTITUENT:
+				return getConstituent();
 			case SchedulingPackage.RECIPE__ANTIBIOTICS:
 				return getAntibiotics();
 		}
@@ -330,9 +324,9 @@ public class RecipeImpl extends MinimalEObjectImpl.Container implements Recipe {
 			case SchedulingPackage.RECIPE__ANTIBIOTICS_WEIGHTS:
 				setAntibioticsWeights((Integer)newValue);
 				return;
-			case SchedulingPackage.RECIPE__CONSITUENT:
-				getConsituent().clear();
-				getConsituent().addAll((Collection<? extends Consituent>)newValue);
+			case SchedulingPackage.RECIPE__CONSTITUENT:
+				getConstituent().clear();
+				getConstituent().addAll((Collection<? extends Constituent>)newValue);
 				return;
 			case SchedulingPackage.RECIPE__ANTIBIOTICS:
 				getAntibiotics().clear();
@@ -362,8 +356,8 @@ public class RecipeImpl extends MinimalEObjectImpl.Container implements Recipe {
 			case SchedulingPackage.RECIPE__ANTIBIOTICS_WEIGHTS:
 				setAntibioticsWeights(ANTIBIOTICS_WEIGHTS_EDEFAULT);
 				return;
-			case SchedulingPackage.RECIPE__CONSITUENT:
-				getConsituent().clear();
+			case SchedulingPackage.RECIPE__CONSTITUENT:
+				getConstituent().clear();
 				return;
 			case SchedulingPackage.RECIPE__ANTIBIOTICS:
 				getAntibiotics().clear();
@@ -388,8 +382,8 @@ public class RecipeImpl extends MinimalEObjectImpl.Container implements Recipe {
 				return antibioticsRatio != ANTIBIOTICS_RATIO_EDEFAULT;
 			case SchedulingPackage.RECIPE__ANTIBIOTICS_WEIGHTS:
 				return antibioticsWeights != ANTIBIOTICS_WEIGHTS_EDEFAULT;
-			case SchedulingPackage.RECIPE__CONSITUENT:
-				return consituent != null && !consituent.isEmpty();
+			case SchedulingPackage.RECIPE__CONSTITUENT:
+				return constituent != null && !constituent.isEmpty();
 			case SchedulingPackage.RECIPE__ANTIBIOTICS:
 				return antibiotics != null && !antibiotics.isEmpty();
 		}
