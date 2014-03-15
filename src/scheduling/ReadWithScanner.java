@@ -45,48 +45,10 @@ public class ReadWithScanner {
 			}
 		}
 
-		/*
-		 * while (input.hasNext()) { String nextToken = input.next(); if
-		 * (nextToken != ","){ field[row][colm] = nextToken; continue; } else if
-		 * (nextToken == ","){ colm++; continue; } else if (nextToken == "\n") {
-		 * row++; colm = 0; } }
-		 */
-
-		// comment
-
 		input.close();
 
 		reader.parsed = field;
 
 	}
-
-	/*
-	 * public String[] ReadHeader(String filepath) throws IOException {
-	 * 
-	 * String formatedFile; boolean headerFlag=false;
-	 * 
-	 * ReadWithScanner reader = new ReadWithScanner(filepath); Scanner input =
-	 * new Scanner(reader.file);
-	 * 
-	 * String[] formatedFileContent;//Output string variable int i = 0;
-	 * 
-	 * while (input.hasNextLine()){ String nextLine = input.nextLine();
-	 * if(headerFlag == false){//start to read the header. if(nextLine ==
-	 * "************")headerFlag = true; else continue; }
-	 * 
-	 * else if(headerFlag == true){ if(nextLine == "************")break;//finish
-	 * reading the header. } }
-	 * 
-	 * int row=0, colm=0; int fileLines = reader.FileLengthCounter(); String
-	 * field[][] = new String[fileLines][35];
-	 * 
-	 * while (input.hasNext()) { String nextToken = input.next(); if (nextToken
-	 * != ",") continue; else if (nextToken == "\n") { row++; colm = 0; } else {
-	 * field[row][colm] = nextToken; colm++; } }
-	 * 
-	 * 
-	 * 
-	 * return formatedFileContent; }
-	 */
 
 }
