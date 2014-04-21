@@ -2,8 +2,9 @@
  */
 package scheduling;
 
-import org.eclipse.emf.common.util.EList;
+import java.sql.*;
 
+import org.eclipse.emf.common.util.EList;
 import org.eclipse.emf.ecore.EObject;
 
 /**
@@ -27,7 +28,14 @@ import org.eclipse.emf.ecore.EObject;
  * @model
  * @generated
  */
-public interface Recipe extends EObject {
+public class Recipe {
+	
+	static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+	
+	// Database credentials
+	static final String USER = "zrwang";
+	static final String PASS = "pdd63c";
+	
 	/**
 	 * Returns the value of the '<em><b>Recipe Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
@@ -42,7 +50,45 @@ public interface Recipe extends EObject {
 	 * @model
 	 * @generated
 	 */
-	String getRecipeName();
+
+	String getRecipeName(String id){
+		Connection conn = null;
+    	PreparedStatement stmt = null;
+        try {
+        	//Register JDBC driver
+            Class.forName(JDBC_DRIVER);
+            
+            conn = (Connection) DriverManager.getConnection("jdbc:mysql://cse.unl.edu/zrwang",USER, PASS);
+          //Get Connection
+            
+            String query = "SELECT RecipeName FROM Recipe WHERE id=?";
+            
+            stmt = conn.prepareStatement(query);
+            stmt.setString(1,id);
+            ResultSet rs = stmt.executeQuery();
+            
+        }catch(SQLException se){
+            //Handle errors for JDBC
+            se.printStackTrace();
+         }catch(Exception e){
+            //Handle errors for Class.forName
+            e.printStackTrace();
+         }finally{
+            //finally block used to close resources
+            try{
+               if(stmt!=null)
+                  stmt.close();
+            }catch(SQLException se2){
+            }// nothing we can do
+            try{
+               if(conn!=null)
+                  conn.close();
+            }catch(SQLException se){
+               se.printStackTrace();
+            }//end finally try
+         }//end try
+        return recipeName;
+	}
 
 	/**
 	 * Sets the value of the '{@link scheduling.Recipe#getRecipeName <em>Recipe Name</em>}' attribute.
